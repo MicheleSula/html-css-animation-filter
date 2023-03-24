@@ -219,7 +219,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: move-top-white-circle 1s linear;
+    animation: move-top-white-circle 5s linear;
 }
 
 @keyframes move-top-white-circle {
@@ -228,11 +228,62 @@
         left: 10%;
         top: -10px;
     }
+
+    10% {
+        left: 60%;
+        top: -10px;
+    }
+
+    20% {
+        left: 100%;
+        top: -10px;
+    }
+
+    30% {
+        left: 100%;
+        top: 50%;
+    }
+
+    40% {
+        left: 100%;
+        top: 100%;
+    }
+
+    50% {
+        left: 60%;
+        top: 100%;
+    }
+
+    60% {
+        left: 10%;
+        top: 100%;
+    }
+
+    70% {
+        left: -20%;
+        top: 100%;
+    }
+
+    80% {
+        left: -20%;
+        top: 50%;
+    }
+
+    90% {
+        left: -20%;
+        top: -10px;
+
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
 }
 
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: move-bottom-white-circle 4s linear;
+    animation: move-bottom-white-circle 5s linear;
 }
 @keyframes move-bottom-white-circle{
 
