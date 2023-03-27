@@ -219,7 +219,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: move-top-white-circle 5s linear;
+    animation: move-top-white-circle 3s linear;
 }
 
 @keyframes move-top-white-circle {
@@ -283,7 +283,7 @@
 
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: move-bottom-white-circle 5s linear;
+    animation: move-bottom-white-circle 3s linear;
 }
 @keyframes move-bottom-white-circle{
 
